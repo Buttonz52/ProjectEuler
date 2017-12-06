@@ -1,76 +1,60 @@
 package com.company;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
-import static java.math.BigDecimal.*;
+import java.math.*;
 
 public class Main {
 
-    final static int MAX_DECIMAL_LENGTH = 100;
-
     public static void main(String[] args) {
-
-
-
-        String[] decimalArray = new String[999];
 
         BigDecimal one = new BigDecimal("1");
 
-        for (int i = 0; i < 999; i++)
+        for (int i = 0; i < 999; i++)   //Print the decimal numbers
         {
-            String str = one.divide(new BigDecimal("" + (1+i)), 100, RoundingMode.HALF_EVEN).toString();
-            decimalArray[i] = str.substring(2);
-            //System.out.println(str.substring(2));
+            String str = one.divide(new BigDecimal("" + (1 + i)), 1000, RoundingMode.HALF_EVEN).toString();
+            System.out.println(str.substring(2));
         }
 
         int max = 0;
         int index = 0;
 
-        for(int i = 0; i < decimalArray.length; i++)
+
+        for (int i = 1; i < 1000; i++)
         {
-            int curr = longestCycle(decimalArray[i],0,0);
-            if (curr > max)
+            int curr = getMultiplicativeOrder(i);
+            if(curr > max)
             {
                 max = curr;
                 index = i;
             }
-
         }
 
-        System.out.println("Max cycle is " + max);
-        System.out.println("1/"+(index+1));
 
+        System.out.println("Max: "+max);
+        System.out.println("d: "+index);
 
     }
 
-    //so broken
-    public static int longestCycle(String s,int r, int c) //leading index  //cycle length
+    public static int getMultiplicativeOrder(int n)
     {
-        int l = r;                      //following index
-
-        do
+        for (int i = 1; i < n; i++)
         {
-            r++;
-            c++;
-        }
-        while(s.charAt(l) != s.charAt(r) && c < MAX_DECIMAL_LENGTH/2);
+            BigInteger IR;
+            BigInteger ten = new BigInteger("10");
+            BigInteger ind = new BigInteger(i+"");
+            BigInteger nn = new BigInteger(n+"");
 
-        if(c >= 50)
-        {
-            c = 1;
-            r = l+1;
+            IR = ten.modPow(ind, nn);
+
+            if(IR.compareTo(BigInteger.ONE) == 0)
+                return i;
         }
 
-        for (int i = 0; i < r-l; i++)
-        {
-            if(s.charAt(i+l) != s.charAt(i+c+l))
-                return longestCycle(s,r,0);
-        }
+        System.out.println(n);
 
-        return c;
+        return 0;
     }
 }
+
 
 //A unit fraction contains 1 in the numerator. The decimal representation of the unit fractions with denominators 2 to 10 are given:
 //
@@ -86,3 +70,6 @@ public class Main {
 //Where 0.1(6) means 0.166666..., and has a 1-digit recurring cycle. It can be seen that 1/7 has a 6-digit recurring cycle.
 //
 //Find the value of d < 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part.
+
+//Note that the period of 1/d is equal to the multiplicative order of d.
+//http://mathworld.wolfram.com/RepeatingDecimal.html
