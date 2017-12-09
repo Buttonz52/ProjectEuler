@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,16 +10,40 @@ public class Main {
         {
             for (int j = 99; j > i; j--)
             {
-                String numerator = i+"";
-                String denominator = j+"";
+                StringBuilder sbnum = new StringBuilder(i+"");
+                StringBuilder sbdenum = new StringBuilder(j+"");
 
-                double num = i/j;
+                double num1 = (double)i/j;
 
-                
+                double num2 = tryCancel(sbnum,sbdenum);
 
-                System.out.println(i+"/"+j);
+                if(num1 == num2 && ((i+"").charAt(1) != '0' && (j+"").charAt(1) != '0'))
+                    System.out.println(i+"/"+j);
+
+                //System.out.println(i+"/"+j);
             }
         }
+    }
+
+    public static double tryCancel(StringBuilder num, StringBuilder denum)
+    {
+        for(int k = 0; k < num.length(); k++)
+        {
+            for (int l = 0; l < denum.length(); l++)
+            {
+                if(num.charAt(k) == denum.charAt(l))
+                {
+                    num.deleteCharAt(k);
+                    denum.deleteCharAt(l);
+                    int a = Integer.parseInt(String.valueOf(num));
+                    int b = Integer.parseInt(String.valueOf(denum));
+                    return (double)a/b;
+                }
+
+            }
+
+        }
+        return 0.0;
     }
 }
 
