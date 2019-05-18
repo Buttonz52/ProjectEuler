@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1000-digit Fibonacci number/1000-digit Fibonacci number.iml" filepath="$PROJECT_DIR$/1000-digit Fibonacci number/1000-digit Fibonacci number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10001st prime/10001st prime.iml" filepath="$PROJECT_DIR$/10001st prime/10001st prime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Amicable numbers/Amicable numbers.iml" filepath="$PROJECT_DIR$/Amicable numbers/Amicable numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Champernowne's constant/Champernowne's constant.iml" filepath="$PROJECT_DIR$/Champernowne's constant/Champernowne's constant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Circular primes/Circular primes.iml" filepath="$PROJECT_DIR$/Circular primes/Circular primes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coded triangle numbers/Coded triangle numbers.iml" filepath="$PROJECT_DIR$/Coded triangle numbers/Coded triangle numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coin sums/Coin sums.iml" filepath="$PROJECT_DIR$/Coin sums/Coin sums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Counting Sundays/Counting Sundays.iml" filepath="$PROJECT_DIR$/Counting Sundays/Counting Sundays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Digit cancelling fractions/Digit cancelling fractions.iml" filepath="$PROJECT_DIR$/Digit cancelling fractions/Digit cancelling fractions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Digit factorials/Digit factorials.iml" filepath="$PROJECT_DIR$/Digit factorials/Digit factorials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Digit fifth powers/Digit fifth powers.iml" filepath="$PROJECT_DIR$/Digit fifth powers/Digit fifth powers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Distinct powers/Distinct powers.iml" filepath="$PROJECT_DIR$/Distinct powers/Distinct powers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Distinct primes factors/Distinct primes factors.iml" filepath="$PROJECT_DIR$/Distinct primes factors/Distinct primes factors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Double-base palindromes/Double-base palindromes.iml" filepath="$PROJECT_DIR$/Double-base palindromes/Double-base palindromes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Even Fibonacci numbers/Even Fibonacci numbers.iml" filepath="$PROJECT_DIR$/Even Fibonacci numbers/Even Fibonacci numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factorial digit sum/Factorial digit sum.iml" filepath="$PROJECT_DIR$/Factorial digit sum/Factorial digit sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Goldbach's other conjecture/Goldbach's other conjecture.iml" filepath="$PROJECT_DIR$/Goldbach's other conjecture/Goldbach's other conjecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Highly divisible triangular number/Highly divisible triangular number.iml" filepath="$PROJECT_DIR$/Highly divisible triangular number/Highly divisible triangular number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Integer right triangles/Integer right triangles.iml" filepath="$PROJECT_DIR$/Integer right triangles/Integer right triangles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Large sum/Large sum.iml" filepath="$PROJECT_DIR$/Large sum/Large sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Largest palindrome product/Largest palindrome product.iml" filepath="$PROJECT_DIR$/Largest palindrome product/Largest palindrome product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Largest prime factor/Largest prime factor.iml" filepath="$PROJECT_DIR$/Largest prime factor/Largest prime factor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Largest product in a grid/Largest product in a grid.iml" filepath="$PROJECT_DIR$/Largest product in a grid/Largest product in a grid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Largest product in a series/Largest product in a series.iml" filepath="$PROJECT_DIR$/Largest product in a series/Largest product in a series.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lattice paths/Lattice paths.iml" filepath="$PROJECT_DIR$/Lattice paths/Lattice paths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lexicographic permutations/Lexicographic permutations.iml" filepath="$PROJECT_DIR$/Lexicographic permutations/Lexicographic permutations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Longest Collatz sequence/Longest Collatz sequence.iml" filepath="$PROJECT_DIR$/Longest Collatz sequence/Longest Collatz sequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maximum path sum I/Maximum path sum I.iml" filepath="$PROJECT_DIR$/Maximum path sum I/Maximum path sum I.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multiples of 3 and 5/Multiples of 3 and 5.iml" filepath="$PROJECT_DIR$/Multiples of 3 and 5/Multiples of 3 and 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Names scores/Names scores.iml" filepath="$PROJECT_DIR$/Names scores/Names scores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Non-abundant sums/Non-abundant sums.iml" filepath="$PROJECT_DIR$/Non-abundant sums/Non-abundant sums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Number letter counts/Number letter counts.iml" filepath="$PROJECT_DIR$/Number letter counts/Number letter counts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Number spiral diagonals/Number spiral diagonals.iml" filepath="$PROJECT_DIR$/Number spiral diagonals/Number spiral diagonals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pandigital multiples/Pandigital multiples.iml" filepath="$PROJECT_DIR$/Pandigital multiples/Pandigital multiples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pandigital prime/Pandigital prime.iml" filepath="$PROJECT_DIR$/Pandigital prime/Pandigital prime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pandigital products/Pandigital products.iml" filepath="$PROJECT_DIR$/Pandigital products/Pandigital products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pentagon numbers/Pentagon numbers.iml" filepath="$PROJECT_DIR$/Pentagon numbers/Pentagon numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Power digit sum/Power digit sum.iml" filepath="$PROJECT_DIR$/Power digit sum/Power digit sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prime permutations/Prime permutations.iml" filepath="$PROJECT_DIR$/Prime permutations/Prime permutations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quadratic primes/Quadratic primes.iml" filepath="$PROJECT_DIR$/Quadratic primes/Quadratic primes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reciprocal cycles/Reciprocal cycles.iml" filepath="$PROJECT_DIR$/Reciprocal cycles/Reciprocal cycles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Self powers/Self powers.iml" filepath="$PROJECT_DIR$/Self powers/Self powers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Smallest multiple/Smallest multiple.iml" filepath="$PROJECT_DIR$/Smallest multiple/Smallest multiple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Special Pythagorean triplet/Special Pythagorean triplet.iml" filepath="$PROJECT_DIR$/Special Pythagorean triplet/Special Pythagorean triplet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sub-string divisibility/Sub-string divisibility.iml" filepath="$PROJECT_DIR$/Sub-string divisibility/Sub-string divisibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sum square difference/Sum square difference.iml" filepath="$PROJECT_DIR$/Sum square difference/Sum square difference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Summation of primes/Summation of primes.iml" filepath="$PROJECT_DIR$/Summation of primes/Summation of primes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theatre Square/Theatre Square.iml" filepath="$PROJECT_DIR$/Theatre Square/Theatre Square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Triangular, pentagonal, and hexagonal/Triangular, pentagonal, and hexagonal.iml" filepath="$PROJECT_DIR$/Triangular, pentagonal, and hexagonal/Triangular, pentagonal, and hexagonal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Truncatable primes/Truncatable primes.iml" filepath="$PROJECT_DIR$/Truncatable primes/Truncatable primes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spaceFinder/spaceFinder.iml" filepath="$PROJECT_DIR$/spaceFinder/spaceFinder.iml" />
+    </modules>
+  </component>
+</project>
